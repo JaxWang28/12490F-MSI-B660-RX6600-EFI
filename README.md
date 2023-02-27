@@ -6,3 +6,5 @@
 
 
 
+* macOS 13.2.2
+* Opencore 0.8.9

@@ -8,3 +8,7 @@
 
 * macOS 13.2.2
 * Opencore 0.8.9
+
+
+
+* 对于免驱显卡且设置正确机型，whateverGreen是不需要的。

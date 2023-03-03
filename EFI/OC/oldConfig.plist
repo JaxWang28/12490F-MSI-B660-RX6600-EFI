@@ -64,7 +64,7 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string></string>
+                    <string>only do it manually</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -769,7 +769,7 @@
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>brQxA1+i</data>
+                <data>BHwWScR0</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>

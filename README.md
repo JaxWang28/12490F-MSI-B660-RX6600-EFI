@@ -11,5 +11,9 @@
 
 
 
-* 对于免驱显卡且设置正确机型，whateverGreen是不需要的。
+* ~~对于免驱显卡且设置正确机型，whateverGreen是不需要的。~~
+
 * 启动项中多了 EFI boot，原因是boot文件夹下缺少两个隐藏文件 0.8.9 开始
+
+* it is encouraged to use WhateverGreen.
+

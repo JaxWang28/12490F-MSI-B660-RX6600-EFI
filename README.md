@@ -17,3 +17,9 @@
 
 * it is encouraged to use WhateverGreen.
 
+* 虽然i5 12490f没有大小核，ProvideCurrentCpuInfo 也是必须的。
+
+
+
+
+

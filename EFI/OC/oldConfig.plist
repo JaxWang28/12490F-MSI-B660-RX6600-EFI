@@ -304,7 +304,7 @@
                     <key>Comment</key>
                     <string>V1.6.4</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/WhateverGreen</string>
                     <key>MaxKernel</key>

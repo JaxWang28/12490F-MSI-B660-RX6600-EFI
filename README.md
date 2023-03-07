@@ -1,23 +1,25 @@
-* CPU i5-12490f
-* GPU rx6600
-* 主板 msi-b660m
-* 固态 wd-770
-* 网卡 FENVi-T919
-
-
-
 * macOS 13.2.2
-* Opencore 0.9.0
+* opencore 0.9.0
 
 
 
-* ~~对于免驱显卡且设置正确机型，whateverGreen是不需要的。~~
+| 硬件 | 型号                                                         |
+| ---- | ------------------------------------------------------------ |
+| 主板 | 微星 [MAG B660M](https://www.msi.com/Motherboard/MAG-B660M-MORTAR-DDR4) |
+| CPU  | i5-12490f                                                    |
+| 显卡 | ASUS [RX6600](https://www.asus.com/hk/motherboards-components/graphics-cards/dual/dual-rx6600-8g/) |
+| SSD  | [WD_BLACK SN770 NVMe™ SSD](https://www.westerndigital.com/zh-cn/products/internal-drives/wd-black-sn770-nvme-ssd#WDS250G3X0E) |
+| RAM  | GLOWAY 光威天策系列DDR4 3200MHz                              |
+| 网卡 | [FENVI-T919](https://cn.fenvi.com/product_detail_27.html)    |
 
-* 启动项中多了 EFI boot，原因是boot文件夹下缺少两个隐藏文件 0.8.9 开始
 
-* it is encouraged to use WhateverGreen.
 
-* 虽然i5 12490f没有大小核，ProvideCurrentCpuInfo 也是必须的。
+| 功能     | 完善程度 |
+| -------- | -------- |
+| wifi     | 正常     |
+| 隔空投送 | 正常     |
+| 蓝牙     | 正常     |
+|          |          |
 
 
 
@@ -38,5 +40,9 @@
 
 
 
+* ~~对于免驱显卡且设置正确机型，whateverGreen是不需要的。~~it is encouraged to use WhateverGreen.
 
+* 启动项中多了 EFI boot，原因是boot文件夹下缺少两个隐藏文件 0.8.9 开始
+
+* 虽然i5 12490f没有大小核，ProvideCurrentCpuInfo 也是必须的。
 

@@ -7,7 +7,7 @@
 
 
 * macOS 13.2.2
-* Opencore 0.8.9
+* Opencore 0.9.0
 
 
 
@@ -18,6 +18,23 @@
 * it is encouraged to use WhateverGreen.
 
 * 虽然i5 12490f没有大小核，ProvideCurrentCpuInfo 也是必须的。
+
+
+
+| Kexts               | Version |
+| ------------------- | ------- |
+| Lilu                | 1.6.4   |
+| VirtualSMC          | 1.3.1   |
+| SMCProcessor        | 1.3.0   |
+| SMCSuperIO          | 1.3.0   |
+| AppleALC            | 1.8.0   |
+| CPUFriend           | 1.2.6   |
+| LucyRTL8125Ethernet | 1.1.0   |
+| WhateverGreen       | 1.6.4   |
+| RadeonSensor        | 0.3.3   |
+| SMCRadeonGPU        | 0.3.3   |
+| USBToolBox          | 1.1.1   |
+| RestrictEvents      | 1.0.9   |
 
 
 

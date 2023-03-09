@@ -1,7 +1,13 @@
-* macOS 13.2.2
+# 基本信息
+
+* macOS 13.2.1
 * opencore 0.9.0
 
+* `config.plist`中的三码已经删除，请自行添加。
 
+
+
+# 硬件信息
 
 | 硬件 | 型号                                                         |
 | ---- | ------------------------------------------------------------ |
@@ -14,6 +20,8 @@
 
 
 
+# 完善度
+
 | 功能     | 完善程度 |
 | -------- | -------- |
 | wifi     | 正常     |
@@ -22,6 +30,10 @@
 |          |          |
 
 
+
+
+
+# Kexts 版本
 
 | Kexts               | Version |
 | ------------------- | ------- |
@@ -40,9 +52,14 @@
 
 
 
-* ~~对于免驱显卡且设置正确机型，whateverGreen是不需要的。~~it is encouraged to use WhateverGreen.
+# 已知问题
+
+* i5-12490f 是没有大小核的，但是不勾选 `ProvideCurrentCpuInfo` 不能进入系统。
+
+
+
+# 填过的坑
 
 * 启动项中多了 EFI boot，原因是boot文件夹下缺少两个隐藏文件 0.8.9 开始
-
-* 虽然i5 12490f没有大小核，ProvideCurrentCpuInfo 也是必须的。
-
+* ~~对于免驱显卡且设置正确机型，whateverGreen是不需要的~~
+* it is encouraged to use WhateverGreen.

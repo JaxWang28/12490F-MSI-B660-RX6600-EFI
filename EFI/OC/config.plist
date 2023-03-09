@@ -434,7 +434,7 @@
                     <key>Count</key>
                     <integer>2</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>uTUAAAAPMg==</data>
                     <key>Identifier</key>
@@ -494,7 +494,7 @@
                 <key>PowerTimeoutKernelPanic</key>
                 <true/>
                 <key>ProvideCurrentCpuInfo</key>
-                <true/>
+                <false/>
                 <key>SetApfsTrimTimeout</key>
                 <integer>-1</integer>
                 <key>ThirdPartyDrives</key>

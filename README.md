@@ -54,7 +54,8 @@
 
 # 已知问题
 
-* i5-12490f 是没有大小核的，但是不勾选 `ProvideCurrentCpuInfo` 不能进入系统。
+* 自己生成的`CPUFriendData`不能实现睿频。
+
 
 
 
@@ -63,3 +64,4 @@
 * 启动项中多了 EFI boot，原因是boot文件夹下缺少两个隐藏文件 0.8.9 开始
 * ~~对于免驱显卡且设置正确机型，whateverGreen是不需要的~~
 * it is encouraged to use WhateverGreen.
+* i5-12490f 是没有大小核的，但是不勾选 `ProvideCurrentCpuInfo` 不能进入系统。原因是 kernel 中的 patch 中的 `_cpuid_set_info` 与其是配套使用的，需要同时弃用。

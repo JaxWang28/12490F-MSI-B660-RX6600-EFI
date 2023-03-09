@@ -144,7 +144,44 @@
         <key>DeviceProperties</key>
         <dict>
             <key>Add</key>
-            <dict/>
+            <dict>
+                <key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,1,0/0,0/0,0/0,0</string>
+                    <key>device_type</key>
+                    <string>VGA compatible controller</string>
+                    <key>model</key>
+                    <string>Radeon RX6600</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x1)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,1,0/0,0/0,0/0,1</string>
+                    <key>device_type</key>
+                    <string>Audio device</string>
+                    <key>model</key>
+                    <string>Navi 21/23 HDMI/DP Audio Controller</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,28,1/0,0</string>
+                    <key>device_type</key>
+                    <string>Ethernet controller</string>
+                    <key>model</key>
+                    <string>RTL8125 2.5GbE Controller</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,28,4/0,0</string>
+                    <key>device_type</key>
+                    <string>Network controller</string>
+                    <key>model</key>
+                    <string>BCM4360 802.11ac Wireless Network Adapter</string>
+                </dict>
+            </dict>
             <key>Delete</key>
             <dict/>
         </dict>

@@ -181,6 +181,17 @@
                     <key>model</key>
                     <string>BCM4360 802.11ac Wireless Network Adapter</string>
                 </dict>
+                <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,31,3</string>
+                    <key>device_type</key>
+                    <string>Audio device</string>
+                    <key>layout-id</key>
+                    <data>RQAAAA==</data>
+                    <key>model</key>
+                    <string>Alder Lake-S HD Audio Controller</string>
+                </dict>
             </dict>
             <key>Delete</key>
             <dict/>
